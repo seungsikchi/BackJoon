@@ -1,0 +1,12 @@
+Up, Donw, Goal = map(int, input().split())
+
+Distance = Up-Down
+
+Goal = Goal-Up
+
+if Goal%Distance == 0: # 수가 딱 나눠떨어질때
+    Count = Goal//Distance
+    print(Count+1)
+else: # 나머지가 남을때
+    Count = Goal//Distance
+    print(Count+2)
