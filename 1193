@@ -1,0 +1,19 @@
+input_num = int(input())
+
+line = 0  
+max_num = 0  
+while input_num > max_num:
+    line = line + 1  
+    max_num = max_num + line
+    print("1.",max_num)
+    print("2.",line)
+
+gap = max_num - input_num
+print(gap)
+if line % 2 == 0:  
+    top = line - gap  
+    under = gap + 1  
+else :  
+    top = gap + 1  
+    under = line - gap  
+print(f'{top}/{under}')
