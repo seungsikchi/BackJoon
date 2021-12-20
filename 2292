@@ -1,10 +1,12 @@
-A = int(input())
-B = 1
-C = 6
+A, B, V = map(int, input().split())
 
-while A>=2:
-    A = A - C
-    B = B +1
-    C = C + 6
+H = A-B
 
-print(B)
+V = V-A
+
+if V%H == 0:
+    C = V//H
+    print(C+1)
+else:
+    C = V//H
+    print(C+2)
