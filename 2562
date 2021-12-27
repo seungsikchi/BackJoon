@@ -1,0 +1,15 @@
+Num = []
+max_num = 0
+
+for i in range(9):
+    n = int(input())
+    Num.append(n)
+
+for i in range (9):
+    if Num[i] > max_num:
+        max_num = Num[i]
+        count = i
+    
+
+print(max_num)
+print(count+1)
