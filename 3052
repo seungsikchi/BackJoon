@@ -1,0 +1,19 @@
+A = int(input())
+B = int(input())
+C = int(input())
+
+
+Num = A * B * C
+Number = str(Num)
+
+
+print(Number.count('0'))
+print(Number.count('1'))
+print(Number.count('2'))
+print(Number.count('3'))
+print(Number.count('4'))
+print(Number.count('5'))
+print(Number.count('6'))
+print(Number.count('7'))
+print(Number.count('8'))
+print(Number.count('9'))
