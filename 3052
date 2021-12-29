@@ -1,0 +1,15 @@
+Num = []
+remainder = []
+
+for i in range(10):
+    N = int(input())
+    Num.append(N)
+
+for N in Num:
+    remainder.append(N%42)
+
+set_remainder = set(remainder)
+remainder = list(set_remainder)
+
+
+print(len(remainder))
