@@ -1,0 +1,16 @@
+target = input().upper()
+text = list(set(target))
+
+
+count_text = []
+
+for i in text:
+    count = target.count(i)
+    count_text.append(count)
+
+if count_text.count(max(count_text)) > 1:
+    print('?')
+
+else:
+    max_index = count_text.index(max(count_text))
+    print(text[max_index])
