@@ -1,0 +1,6 @@
+#Case 1
+target = input().split()
+print(len(target))
+
+#Case 2
+print(len(input().split()))
