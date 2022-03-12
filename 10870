@@ -1,0 +1,8 @@
+target = int(input())
+num = [0, 1]
+
+for i in range(target-1):
+    number = num[i] + num[i+1]
+    num.append(number)
+
+print(num[target])
